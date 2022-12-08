@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "parcel": "^2.8.1"
+  },
+  "scripts": {
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   }
 }
